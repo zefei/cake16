@@ -7,6 +7,12 @@
 " colors. 16-color terminals are also supported by mapping colors in your 
 " terminal emulator settings. It is good for prolonged coding.
 "
+" Screenshots:
+" Python: http://tinyurl.com/mpvnjdb
+" Ruby: http://tinyurl.com/k8rvtzb
+" C with nerdtree: http://tinyurl.com/mko9gj2
+" Java with help and nerdtree: http://tinyurl.com/kvg3etv
+"
 " Installation:
 " Copy the file to your vim colors directory and then do :color cake16.
 "
