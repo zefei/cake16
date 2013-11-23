@@ -1,0 +1,22 @@
+# xrdb -override ${0}
+# urxvt -name cake16
+
+cake16.background: #e8dfcf
+cake16.foreground: #744d36
+
+cake16.color0:    #744d38
+cake16.color1:    #b95942
+cake16.color2:    #308444
+cake16.color3:    #b58839
+cake16.color4:    #50707e
+cake16.color5:    #878787
+cake16.color6:    #308090
+cake16.color7:    #ede4d4
+cake16.color8:    #878787
+cake16.color9:    #f10000
+cake16.color10:   #82a3b3
+cake16.color11:   #c79747
+cake16.color12:   #678797
+cake16.color13:   #aa56b2
+cake16.color14:   #e4dccc
+cake16.color15:   #f7efdf
