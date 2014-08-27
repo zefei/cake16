@@ -81,7 +81,7 @@ hi IncSearch    guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10       
 hi Search       guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 
 " UI
-hi LineNr       guifg=#878787   guibg=bg        ctermfg=8      ctermbg=bg        gui=none      cterm=none
+hi LineNr       guifg=#afafaf   guibg=bg        ctermfg=13     ctermbg=bg        gui=none      cterm=none
 hi CursorLineNr guifg=fg        guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=none      cterm=none
 hi Pmenu        guifg=bg        guibg=#678797   ctermfg=bg     ctermbg=12        gui=none      cterm=none
 hi PmenuSel     guifg=fg        guibg=#afafaf   ctermfg=fg     ctermbg=13        gui=none      cterm=none
@@ -93,8 +93,8 @@ hi TabLine      guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8        
 hi TabLineFill  guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
 hi TabLineSel   guifg=fg        guibg=bg        ctermfg=fg     ctermbg=bg        gui=none      cterm=none
 hi VertSplit    guifg=fg        guibg=bg        ctermfg=fg     ctermbg=bg        gui=none      cterm=none
-hi Folded       guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
-hi FoldColumn   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
+hi Folded       guifg=#afafaf   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
+hi FoldColumn   guifg=#afafaf   guibg=NONE      ctermfg=13     ctermbg=NONE      gui=none      cterm=none
 
 " Spelling
 hi SpellBad     guisp=#f10000                   ctermfg=bg     ctermbg=9         gui=undercurl cterm=undercurl
