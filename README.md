@@ -55,7 +55,7 @@ table:
     ANSI 0  (normal black)    |  #774f38
     ANSI 1  (normal red)      |  #b95942
     ANSI 2  (normal green)    |  #308444
-    ANSI 3  (normal yellow)   |  #b58839
+    ANSI 3  (normal yellow)   |  #996e1f
     ANSI 4  (normal blue)     |  #50707e
     ANSI 5  (normal magenta)  |  #aa56b2
     ANSI 6  (normal cyan)     |  #308090

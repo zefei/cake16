@@ -1,3 +1,21 @@
+" Color references
+" ANSI 0  (normal black)     #774f38
+" ANSI 1  (normal red)       #b95942
+" ANSI 2  (normal green)     #308444
+" ANSI 3  (normal yellow)    #996e1f
+" ANSI 4  (normal blue)      #50707e
+" ANSI 5  (normal magenta)   #aa56b2
+" ANSI 6  (normal cyan)      #308090
+" ANSI 7  (normal white)     #ede4d4
+" ANSI 8  (bright black)     #878787
+" ANSI 9  (bright red)       #f10000
+" ANSI 10 (bright green)     #82a3b3
+" ANSI 11 (bright yellow)    #c79747
+" ANSI 12 (bright blue)      #678797
+" ANSI 13 (bright magenta)   #afafaf
+" ANSI 14 (bright cyan)      #e4dccc
+" ANSI 15 (bright white)     #f7efdf
+
 " Init
 hi clear
 if exists("syntax_on")
@@ -58,7 +76,7 @@ hi SpellLocal   guisp=#f10000                   ctermfg=bg     ctermbg=9        
 
 " Diff
 hi DiffAdd      guifg=bg        guibg=#308444   ctermfg=bg     ctermbg=2         gui=none      cterm=none
-hi DiffChange   guifg=bg        guibg=#b58839   ctermfg=bg     ctermbg=3         gui=none      cterm=none
+hi DiffChange   guifg=bg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 hi DiffDelete   guifg=bg        guibg=#b95942   ctermfg=bg     ctermbg=1         gui=none      cterm=none
 hi DiffText     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
 
