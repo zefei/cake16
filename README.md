@@ -48,7 +48,7 @@ After installation, add this line to your .vimrc:
 
 If you are using gvim only, there's no more work. If you are using vim in 
 terminals, open your terminal settings and map each color to the following 
-table:
+table (iTerm2 users can import colors from iterm2/cake16.itermcolors instead):
 
     UNIX color code           |  color hex value
     --------------------------+-----------------
@@ -72,5 +72,16 @@ table:
     Foreground                |  #774f38
     Background                |  #f7efdf
 
-If you are using iTerm2, you don't have to do this manually, just import colors 
-from iterm2/cacke16.itermcolors.
+256-color approximation
+-----------------------
+
+Alternatively, if you don't want to map terminal colors, you can approximate 
+cake16 using 256 terminal colors. Simply install CSApprox using your package 
+manager, it will calculate and set colors automatically:
+
+* [Pathogen](https://github.com/tpope/vim-pathogen)
+  * `git clone https://github.com/godlygeek/csapprox ~/.vim/bundle/csapprox`
+* [Vundle](https://github.com/gmarik/Vundle.vim)
+  * `Plugin 'godlygeek/csapprox'`
+* [NeoBundle](https://github.com/Shougo/neobundle.vim)
+  * `NeoBundle 'godlygeek/csapprox'`
