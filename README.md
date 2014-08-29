@@ -68,6 +68,9 @@ table:
     ANSI 13 (bright magenta)  |  #afafaf
     ANSI 14 (bright cyan)     |  #e4dccc
     ANSI 15 (bright white)    |  #f7efdf
+    --------------------------+-----------------
+    Foreground                |  #774f38
+    Background                |  #f7efdf
 
 If you are using iTerm2, you don't have to do this manually, just import colors 
 from iterm2/cacke16.itermcolors.
