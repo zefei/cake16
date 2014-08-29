@@ -6,7 +6,7 @@ colors. It has a very pleasant yellowish tone and is great for prolonged coding.
 
 It supports both gvim and 16-color terminals. Terminal support is done by 
 mapping colors in terminal emulator settings, like 
-(solarized)[https://github.com/altercation/vim-colors-solarized].
+[solarized](https://github.com/altercation/vim-colors-solarized).
 
 Screenshots
 ===========
