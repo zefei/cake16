@@ -73,4 +73,4 @@ table:
     Background                |  #f7efdf
 
 If you are using iTerm2, you don't have to do this manually, just import colors 
-from iterm2/cacke16.itermcolors.
+from [iterm2/cake16.itermcolors](iterm2/cake16.itermcolors).
