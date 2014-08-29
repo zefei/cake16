@@ -1,7 +1,7 @@
 # xrdb -override ${0}
 # urxvt -name cake16
 
-cake16.background: #e8dfcf
+cake16.background: #f7efdf
 cake16.foreground: #744d36
 
 cake16.color0:    #744d38
