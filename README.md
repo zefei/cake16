@@ -48,7 +48,7 @@ After installation, add this line to your .vimrc:
 
 If you are using gvim only, there's no more work. If you are using vim in 
 terminals, open your terminal settings and map each color to the following 
-table (iTerm2 users can import colors from iterm2/cake16.itermcolors instead):
+table:
 
     UNIX color code           |  color hex value
     --------------------------+-----------------
@@ -71,6 +71,9 @@ table (iTerm2 users can import colors from iterm2/cake16.itermcolors instead):
     --------------------------+-----------------
     Foreground                |  #774f38
     Background                |  #f7efdf
+
+If you are using iTerm2, you don't have to do this manually, just import colors 
+from [iterm2/cake16.itermcolors](iterm2/cake16.itermcolors).
 
 256-color approximation
 -----------------------
