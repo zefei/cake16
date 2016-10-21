@@ -37,7 +37,7 @@ hi Special      guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 " Syntax color_coded
 hi Member       guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi Variable     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
-hi Namespace    guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+hi Namespace    guifg=#308444   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
 hi EnumConstant guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 
 " Text Markup
