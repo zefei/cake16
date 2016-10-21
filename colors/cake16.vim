@@ -28,11 +28,15 @@ set background=light
 hi Normal       guifg=#774f38   guibg=#f7efdf   ctermfg=0      ctermbg=15        gui=none      cterm=none
 hi Comment      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi Constant     guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
-hi Identifier   guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+hi Identifier   guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 hi Statement    guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi PreProc      guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi PreProc      guifg=#50707e   guibg=NONE      ctermfg=4      ctermbg=NONE      gui=none      cterm=none
 hi Type         guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
 hi Special      guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+
+hi Delimiter    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi StorageClass guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
+hi Structure    guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
 
 " Syntax color_coded
 hi Member       guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
