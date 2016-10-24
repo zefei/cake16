@@ -101,3 +101,9 @@ hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi WildMenu     guifg=#50707e   guibg=#e4dccc   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#ede4d4   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
+
+" vim-sneak
+hi SneakPluginTarget guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
+hi SneakPluginScope  guifg=#308444   guibg=#e4dccc   ctermfg=2      ctermbg=14        gui=none      cterm=none
+hi SneakStreakTarget guifg=#f10000   guibg=#e4dccc   ctermfg=9      ctermbg=14        gui=none      cterm=none
+hi SneakStreakMask   guifg=fg        guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=none      cterm=none
