@@ -27,18 +27,28 @@ set background=light
 " General Colors
 hi Normal       guifg=#774f38   guibg=#f7efdf   ctermfg=0      ctermbg=15        gui=none      cterm=none
 hi Comment      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
-hi Constant     guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
-hi Identifier   guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
-hi Statement    guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi PreProc      guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
-hi Type         guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
-hi Special      guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi Constant     guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+hi Identifier   guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi Statement    guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
+hi PreProc      guifg=#50707e   guibg=NONE      ctermfg=4      ctermbg=NONE      gui=none      cterm=none
+hi Type         guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi Special      guifg=#308444   guibg=NONE      ctermfg=2      ctermbg=NONE      gui=none      cterm=none
+
+hi Delimiter    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi StorageClass guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
+hi Structure    guifg=#996e1f   guibg=NONE      ctermfg=3      ctermbg=NONE      gui=none      cterm=none
+
+" Syntax color_coded
+hi Member       guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi Variable     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi Namespace    guifg=#308444   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
+hi EnumConstant guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
 
 " Text Markup
 hi Underlined   guifg=NONE      guibg=NONE      ctermfg=NONE   ctermbg=NONE      gui=underline cterm=underline
 hi Error        guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
 hi Todo         guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
-hi MatchParen   guifg=fg        guibg=#afafaf   ctermfg=fg     ctermbg=13        gui=none      cterm=none
+hi MatchParen   guifg=fg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 hi NonText      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi SpecialKey   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
@@ -91,3 +101,9 @@ hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi WildMenu     guifg=#50707e   guibg=#e4dccc   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#ede4d4   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
+
+" vim-sneak
+hi SneakPluginTarget guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
+hi SneakPluginScope  guifg=#308444   guibg=#e4dccc   ctermfg=2      ctermbg=14        gui=none      cterm=none
+hi SneakStreakTarget guifg=#f10000   guibg=#e4dccc   ctermfg=9      ctermbg=14        gui=none      cterm=none
+hi SneakStreakMask   guifg=fg        guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=none      cterm=none
