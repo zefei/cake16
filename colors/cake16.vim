@@ -91,3 +91,25 @@ hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi WildMenu     guifg=#50707e   guibg=#e4dccc   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#ede4d4   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
 hi Ignore       guifg=bg                        ctermfg=bg
+
+" Neovim Terminal buffer support
+if has('nvim')
+  let g:terminal_color_0 = '#774f38'
+  let g:terminal_color_1 = '#b95942'
+  let g:terminal_color_2 = '#308444'
+  let g:terminal_color_3 = '#996e1f'
+  let g:terminal_color_4 = '#50707e'
+  let g:terminal_color_5 = '#aa56b2'
+  let g:terminal_color_6 = '#308090'
+  let g:terminal_color_7 = '#ede4d4'
+  let g:terminal_color_8 = '#878787'
+  let g:terminal_color_9 = '#f10000'
+  let g:terminal_color_10 = '#82a3b3'
+  let g:terminal_color_11 = '#c79747'
+  let g:terminal_color_12 = '#678797'
+  let g:terminal_color_13 = '#afafaf'
+  let g:terminal_color_14 = '#e4dccc'
+  let g:terminal_color_15 = '#f7efdf'
+  let g:terminal_color_background = g:terminal_color_0
+  let g:terminal_color_foreground = g:terminal_color_7
+endif
