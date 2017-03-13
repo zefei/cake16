@@ -81,12 +81,12 @@ hi DiffDelete   guifg=bg        guibg=#b95942   ctermfg=bg     ctermbg=1        
 hi DiffText     guifg=bg        guibg=fg        ctermfg=bg     ctermbg=fg        gui=none      cterm=none
 
 " Misc
-hi Directory    guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi Directory    guifg=#308090   guibg=NONE      ctermfg=6      ctermbg=NONE      gui=none      cterm=none
 hi ErrorMsg     guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
 hi SignColumn   guifg=#678797   guibg=NONE      ctermfg=12     ctermbg=NONE      gui=none      cterm=none
 hi MoreMsg      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi ModeMsg      guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
-hi Question     guifg=fg        guibg=NONE      ctermfg=fg     ctermbg=NONE      gui=none      cterm=none
+hi Question     guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 hi WarningMsg   guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
 hi WildMenu     guifg=#50707e   guibg=#e4dccc   ctermfg=4      ctermbg=14        gui=none      cterm=none
 hi ColorColumn  guifg=NONE      guibg=#ede4d4   ctermfg=NONE   ctermbg=7         gui=none      cterm=none
