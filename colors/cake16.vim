@@ -57,8 +57,8 @@ hi LineNr       guifg=#afafaf   guibg=bg        ctermfg=13     ctermbg=bg       
 hi CursorLineNr guifg=fg        guibg=#e4dccc   ctermfg=fg     ctermbg=14        gui=none      cterm=none
 hi Pmenu        guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
 hi PmenuSel     guifg=bg        guibg=#82a3b3   ctermfg=bg     ctermbg=10        gui=none      cterm=none
-hi PMenuSbar    guifg=#878787   guibg=#878787   ctermfg=8      ctermbg=8         gui=none      cterm=none
-hi PMenuThumb   guifg=#afafaf   guibg=#afafaf   ctermfg=13     ctermbg=13        gui=none      cterm=none
+hi PmenuSbar    guifg=#878787   guibg=#878787   ctermfg=8      ctermbg=8         gui=none      cterm=none
+hi PmenuThumb   guifg=#afafaf   guibg=#afafaf   ctermfg=13     ctermbg=13        gui=none      cterm=none
 hi StatusLine   guifg=bg        guibg=#678797   ctermfg=bg     ctermbg=12        gui=none      cterm=none
 hi StatusLineNC guifg=bg        guibg=#afafaf   ctermfg=bg     ctermbg=13        gui=none      cterm=none
 hi TabLine      guifg=bg        guibg=#878787   ctermfg=bg     ctermbg=8         gui=none      cterm=none
