@@ -38,7 +38,7 @@ hi Special      guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE     
 hi Underlined   guifg=NONE      guibg=NONE      ctermfg=NONE   ctermbg=NONE      gui=underline cterm=underline
 hi Error        guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
 hi Todo         guifg=#f10000   guibg=NONE      ctermfg=9      ctermbg=NONE      gui=none      cterm=none
-hi MatchParen   guifg=fg        guibg=#afafaf   ctermfg=fg     ctermbg=13        gui=none      cterm=none
+hi MatchParen   guifg=fg        guibg=#c79747   ctermfg=bg     ctermbg=11        gui=none      cterm=none
 hi NonText      guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi SpecialKey   guifg=#878787   guibg=NONE      ctermfg=8      ctermbg=NONE      gui=none      cterm=none
 hi Title        guifg=#b95942   guibg=NONE      ctermfg=1      ctermbg=NONE      gui=none      cterm=none
